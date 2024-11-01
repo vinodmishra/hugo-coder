@@ -5,6 +5,7 @@
     - [Commenting Systems](#commenting-systems)
       - [Disqus](#disqus)
       - [Commento](#commento)
+      - [Comentario](#comentario)
       - [Utterances](#utterances)
       - [Giscus](#giscus)
       - [Telegram](#telegram)
@@ -28,6 +29,7 @@ This theme supports:
 * Commenting Systems
   * [Disqus](https://disqus.com/)
   * [Commento](https://commento.io/)
+  * [Comentario](https://comentario.app/)
   * [Utterances](https://utteranc.es/)
   * [Giscus](https://giscus.app/)
   * [Cusdis](https://cusdis.com/)
@@ -46,6 +48,12 @@ Follow [these steps](https://gohugo.io/content-management/comments/#configure-di
 ```toml
 [params]
   commentoURL = "https://cdn.commento.io" # Replace if you use a custom domain
+```
+#### Comentario
+
+```toml
+[params]
+  comentarioURL = "https://edge.comentario.app" # Replace with your own domain
 ```
 
 #### Utterances
